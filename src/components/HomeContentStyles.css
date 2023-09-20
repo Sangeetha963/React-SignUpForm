@@ -1,0 +1,78 @@
+/* Header.css */
+
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #0076dd;
+  padding: 10px 20px;
+  color: white;
+}
+
+.left-content {
+  display: flex;
+  align-items: center;
+}
+
+.company-name {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.right-content {
+  display: flex;
+  align-items: center;
+}
+
+.profile-icon img {
+  width: 30px; /* Adjust the size as needed */
+  height: 30px;
+  margin-right: 10px; /* Adjust the spacing as needed */
+}
+
+.first-name {
+  font-weight: bold;
+}
+
+/* Details table styles */
+.details-table table {
+  border-collapse: collapse;
+  width: 80%; /* Adjust the table width as needed */
+  background-color: #f8f8f8; /* Background color for the table */
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.details-table th,
+.details-table td {
+  padding: 8px 16px; /* Adjust padding as needed */
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+.details-table th {
+  background-color: #333;
+  color: white;
+}
+
+/* Style for the left (key) column */
+.key-cell {
+  font-weight: bold; /* Make the keys bold */
+}
+
+/* Style for the right (value) column */
+.value-cell {
+  text-align: right; /* Right-align the values */
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh; /* Set a minimum height to center vertically */
+}
+
+.centered-user-details {
+  text-align: center;
+}
